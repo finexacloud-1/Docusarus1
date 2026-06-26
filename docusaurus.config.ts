@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Finexa Cloud',
       logo: {
         alt: 'Finexa Cloud Logo',
-        src: 'img/logo.svg',
+        src: 'img/Logo_Finexa_3D.png',
       },
       items: [
         {

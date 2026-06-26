@@ -6,25 +6,45 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #003B73;
+  --ifm-color-primary-dark: #002f5c;
+  --ifm-color-primary-darker: #00254a;
+  --ifm-color-primary-darkest: #001b38;
+  --ifm-color-primary-light: #1a4f81;
+  --ifm-color-primary-lighter: #33638f;
+  --ifm-color-primary-lightest: #4d779d;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-link-color: #00AEEF;
+  --ifm-background-color: #FFFFFF;
+  --ifm-card-background-color: #F4F6F8;
+  --ifm-footer-background-color: #003B73;
+  --ifm-footer-link-color: #FFFFFF;
+  --ifm-navbar-background-color: #FFFFFF;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #4d8bc1;
+  --ifm-color-primary-dark: #457cb0;
+  --ifm-color-primary-darker: #3d6d9f;
+  --ifm-color-primary-darkest: #355e8e;
+  --ifm-color-primary-light: #5f97c7;
+  --ifm-color-primary-lighter: #71a3ce;
+  --ifm-color-primary-lightest: #83afd5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-link-color: #00AEEF;
+  --ifm-background-color: #1b1b1d;
+  --ifm-card-background-color: #242526;
+  --ifm-footer-background-color: #1b1b1d;
+  --ifm-navbar-background-color: #242526;
+}
+
+.button--primary {
+  --ifm-button-background-color: #FFC107;
+  --ifm-button-border-color: #FFC107;
+  --ifm-button-color: #000000;
+}
+.button--primary:hover {
+  --ifm-button-background-color: #e6ae06;
+  --ifm-button-border-color: #e6ae06;
 }
