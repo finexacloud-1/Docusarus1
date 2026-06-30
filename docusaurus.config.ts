@@ -46,21 +46,7 @@ const config: Config = {
           editUrl:
             'https://github.com/finexa/finexa-cloud-docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/finexa/finexa-cloud-docs/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,6 +65,7 @@ const config: Config = {
       logo: {
         alt: 'Finexa Cloud Logo',
         src: 'img/Logo_Finexa_3D.png',
+        href: 'https://finexacloud.com/',
       },
       items: [
         {
