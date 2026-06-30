@@ -15,3 +15,5 @@ sidebar_position: 2
 5. Revisa los totales (sub-total, descuento, ITBIS y total compra).
 
 6. Haz clic en **"Guardar"** para aplicar los cambios a la cotización.
+
+**video tutorial**https://www.youtube.com/watch?v=TZtb7H1tsTA

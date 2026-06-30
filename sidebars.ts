@@ -16,10 +16,10 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Cotizaciones',
       items: [
-        'cotizaciones/crear-cotizacion',
-        'cotizaciones/editar-cotizacion',
-        'cotizaciones/eliminar-cotizacion',
-        'cotizaciones/halar-cotizacion',
+        'cuadre-caja/cotizaciones/crear-cotizacion',
+        'cuadre-caja/cotizaciones/editar-cotizacion',
+        'cuadre-caja/cotizaciones/eliminar-cotizacion',
+        'cuadre-caja/cotizaciones/halar-cotizacion',
       ],
     },
     {
